@@ -50,7 +50,7 @@ class Task(models.Model):
     due_date = models.DateField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
-    # Relacja N:M (Task <-> Tag)
+
 
     tags = models.ManyToManyField(
         Tag,

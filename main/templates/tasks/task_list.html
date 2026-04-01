@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Lista zadań</h2>
+    
+    <p><a href="{% url 'task_add' %}"><b>+ Dodaj nowe zadanie</b></a></p>
+
+    {% if tasks %}
+        <ul>
+        {% for task in tasks %}
+            <li>
+                <a href="{% url 'task_detail' task.pk %}">
+                    {{ task.title }}
+                </a>
+                | status: {{ task.status }}
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Brak zadań.</p>
+    {% endif %}
+{% endblock %}

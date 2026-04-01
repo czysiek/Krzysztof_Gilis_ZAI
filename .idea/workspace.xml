@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -22,6 +25,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/czysi/Documents/GitHub/Krzysztof_Gilis_ZAI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -31,6 +38,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\czysi\Documents\GitHub\Krzysztof_Gilis_ZAI\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="zai" type="Python.DjangoServer" factoryName="Django server">
       <module name="zai" />
@@ -75,6 +87,10 @@
       <updated>1772720159764</updated>
       <workItem from="1772720160812" duration="1811000" />
       <workItem from="1774436339800" duration="508000" />
+      <workItem from="1774437024978" duration="581000" />
+      <workItem from="1774437624653" duration="39000" />
+      <workItem from="1774437779133" duration="2026000" />
+      <workItem from="1775059824985" duration="3426000" />
     </task>
     <servers />
   </component>
