@@ -31,7 +31,7 @@ class Task(models.Model):
         DONE = "done", "Done"
 
 
-    # Relacja 1:N (Project -> Task)
+
     project = models.ForeignKey(
         Project,
         on_delete=models.CASCADE,

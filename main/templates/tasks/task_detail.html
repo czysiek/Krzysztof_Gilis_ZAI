@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>Szczegóły zadania</title>
-</head>
-<body>
-    <h1>{{ task.title }}</h1>
+
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Szczegóły zadania</h1>
+
+    <h3>{{ task.title }}</h3>
     <p><strong>Opis:</strong> {{ task.description }}</p>
     <p><strong>Status:</strong> {{ task.status }}</p>
     <p><strong>Projekt:</strong> {{ task.project }}</p>
@@ -19,7 +18,9 @@
             <li>Brak tagów</li>
         {% endfor %}
     </ul>
-
-    <p><a href="{% url 'task_list' %}">Powrót do listy</a></p>
-</body>
-</html>
+    <p>
+    <a href="{% url 'task_edit' task.pk %}" class="btn btn-primary px-4">Edytuj zadanie</a>
+    <a href="{% url 'task_delete' task.pk %}" class="btn btn-danger px-4">Usuń zadanie</a>
+    <a href="{% url 'task_list' %}" class="btn btn-secondary px-4">Powrót do listy zadań</a>
+    </p>
+{% endblock %}

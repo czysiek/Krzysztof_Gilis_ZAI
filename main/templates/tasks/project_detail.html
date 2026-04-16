@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Projekt: {{ project.name }}</h1>
+
+    <p><strong>Opis:</strong> {{ project.description|default:"Brak opisu" }}</p>
+    <p><strong>Utworzono:</strong> {{ project.created_at|date:"d.m.Y H:i" }}</p>
+
+    <hr>
+
+    <h3>Zadania przypisane do projektu:</h3>
+    <ul>
+        {% for task in project.tasks.all %}
+            <li>
+                <a href="{% url 'task_detail' task.pk %}">{{ task.title }}</a>
+                | Status: {{ task.get_status_display }}
+            </li>
+        {% empty %}
+            <li>Ten projekt nie ma jeszcze żadnych zadań.</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    <p>
+        <a href="{% url 'project_edit' project.pk %}" class="btn btn-primary px-4">Edytuj projekt</a>
+        <a href="{% url 'project_delete' project.pk %}" class="btn btn-danger px-4">Usuń projekt</a>
+        <a href="{% url 'project_list' %}" class="btn btn-secondary px-4">Powrót do listy projektów</a>
+    </p>
+{% endblock %}

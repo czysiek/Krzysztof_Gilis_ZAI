@@ -1,10 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Formularz zadania</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Zapisz</button>
-</form>
+    <h2 class="mb-4">Formularz zadania</h2>
+    <form method="post" class="needs-validation">
+        {% csrf_token %}
+
+        <div class="mb-3">
+            {{ form.as_p }}
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary px-4">Zapisz</button>
+            <a href="{% url 'task_list' %}" class="btn btn-secondary px-4">Powrót do listy zadań</a>
+        </div>
+    </form>
 {% endblock %}
