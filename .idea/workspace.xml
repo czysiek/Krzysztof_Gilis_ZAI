@@ -4,74 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfbbc8b0-f4cf-47ae-a1aa-fcdce847f623" name="Changes" comment="" />
+    <list default="true" id="44d21313-52b2-4d72-8b0b-fc26e738d5ec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zai.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co_innego/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co_innego/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co_innego/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co_innego/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/co_innego/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwiczenie1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0002_project_tag_alter_task_options_remove_task_is_done_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0003_task_uniq_task_title_in_project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="3AWtTBhNIjDUMQKHQ6sY3fiL1qg" />
+  <component name="ProjectId" id="3CrAUMEfFlWtAkBIjOLvQBjByoB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.test_api_nbp.executor": "Run",
+    "Python.test_finhub.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<unknown>",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/czysi/Documents/GitHub/Krzysztof_Gilis_ZAI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "git-widget-placeholder": "projekt__zasadniczy",
+    "last_opened_file_path": "D:/Studia/magister xD/rok 2 semestr 1/projekt_zasadniczy",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\czysi\Documents\GitHub\Krzysztof_Gilis_ZAI\templates" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="zai" type="Python.DjangoServer" factoryName="Django server">
-      <module name="zai" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,19 +89,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfbbc8b0-f4cf-47ae-a1aa-fcdce847f623" name="Changes" comment="" />
-      <created>1772720159764</created>
+      <changelist id="44d21313-52b2-4d72-8b0b-fc26e738d5ec" name="Changes" comment="" />
+      <created>1777133329274</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772720159764</updated>
-      <workItem from="1772720160812" duration="1811000" />
-      <workItem from="1774436339800" duration="508000" />
-      <workItem from="1774437024978" duration="581000" />
-      <workItem from="1774437624653" duration="39000" />
-      <workItem from="1774437779133" duration="2026000" />
-      <workItem from="1775059824985" duration="3426000" />
-      <workItem from="1775734646733" duration="640000" />
-      <workItem from="1776274545094" duration="6775000" />
+      <updated>1777133329274</updated>
+      <workItem from="1779322563851" duration="15000" />
+      <workItem from="1779322590218" duration="140000" />
     </task>
     <servers />
   </component>
@@ -106,8 +106,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/forms.py</url>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/market_data/views.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
