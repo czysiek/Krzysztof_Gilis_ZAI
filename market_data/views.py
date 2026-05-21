@@ -22,7 +22,7 @@ class FinancialAssetViewSet(viewsets.ModelViewSet):
     # 3. Sortowanie
     ordering_fields = ['current_price_pln', 'last_updated', 'ticker']
 
-
+    # Pobranie ceny USD itp.
     def perform_create(self, serializer):
         instance = serializer.save()
         fetch_and_save_asset(instance.ticker, instance.name, instance.asset_type)
