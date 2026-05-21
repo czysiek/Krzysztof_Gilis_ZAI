@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d21313-52b2-4d72-8b0b-fc26e738d5ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zai.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/co_innego/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/co_innego/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/co_innego/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/co_innego/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/co_innego/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenie1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0002_project_tag_alter_task_options_remove_task_is_done_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0003_task_uniq_task_title_in_project.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/project_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/tasks/task_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +41,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "projekt__zasadniczy",
     "last_opened_file_path": "D:/Studia/magister xD/rok 2 semestr 1/projekt_zasadniczy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -96,6 +68,7 @@
       <updated>1777133329274</updated>
       <workItem from="1779322563851" duration="15000" />
       <workItem from="1779322590218" duration="140000" />
+      <workItem from="1779322738353" duration="612000" />
     </task>
     <servers />
   </component>
